@@ -6,10 +6,11 @@ public class Primenumbers {
         System.out.println("Enter a number to check the number is prime or not");
         int number = sc.nextInt();
         int flag = 0;
-        for (int i = 2; i < Math.sqrt(number); i++) {
-            System.out.println(i);
-            if (number % 2 == 0) {
+        for (int i = 2; i <=Math.sqrt(number); i++) {
+           
+            if (number % i == 0) {
                 flag = 1;
+                break;
             }
         }
         if (flag == 0) {
