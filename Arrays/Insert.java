@@ -9,7 +9,7 @@ public class Insert {
         arr[2] = 3;
         arr[3] = 4;
         int insert = 300;
-        int index = 2;
+        int index = arr.length-1;
 
         System.out.println("Array elements before insertion");
         for (int i = 0; i < arr.length; i++) {
