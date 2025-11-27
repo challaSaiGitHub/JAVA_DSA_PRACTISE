@@ -7,6 +7,7 @@ public class SeivePrime {
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter range");
         int range = sc.nextInt();
+        sc.close();
         boolean arr[] = new boolean[range + 1];
         Arrays.fill(arr, true);
         for (int i = 2; i <= range; i++) {

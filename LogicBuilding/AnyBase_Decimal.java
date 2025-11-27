@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 public class AnyBase_Decimal {
 
-    public static void AnyBase_Decimal(int basenumber)
+    public static void AnyBase_Decimals(int basenumber)
     {
         
         int result=0;
@@ -24,8 +24,8 @@ public class AnyBase_Decimal {
         Scanner sc=new Scanner(System.in);
         System.out.println("Enter the base value");
         int base=sc.nextInt();
-        AnyBase_Decimal(base);
-        
+        AnyBase_Decimals(base);
+        sc.close();
     }
     
 }

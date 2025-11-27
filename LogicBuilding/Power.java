@@ -9,6 +9,7 @@ public class Power {
          System.out.println("Enter the number power ");
         int power=sc.nextInt();
         int x=1;
+        sc.close();
         int result=1;
         while(x<power)
         {

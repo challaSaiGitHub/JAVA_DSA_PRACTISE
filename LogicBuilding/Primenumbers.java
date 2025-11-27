@@ -6,6 +6,7 @@ public class Primenumbers {
         System.out.println("Enter a number to check the number is prime or not");
         int number = sc.nextInt();
         int flag = 0;
+        sc.close();
         for (int i = 2; i <=Math.sqrt(number); i++) {
            
             if (number % i == 0) {
@@ -20,4 +21,5 @@ public class Primenumbers {
         }
     }
 
+}
 }

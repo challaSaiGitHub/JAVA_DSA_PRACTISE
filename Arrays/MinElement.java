@@ -2,7 +2,7 @@ package Arrays;
 
 public class MinElement {
     
-     public static void MinElement(int arr[])
+     public static void MinElements(int arr[])
     {
         int min=Integer.MAX_VALUE;
         
@@ -18,6 +18,6 @@ public class MinElement {
     public static void main(String args[])
     {
               int arr[]={1,2,3,4,5,6,7,8,-2};
-              MinElement(arr);
+              MinElements(arr);
     }
 }

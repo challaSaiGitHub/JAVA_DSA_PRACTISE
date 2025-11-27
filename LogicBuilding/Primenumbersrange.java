@@ -6,7 +6,7 @@ public class Primenumbersrange {
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter a number upto which number you need prime numbers");
         int range = sc.nextInt();
-
+          sc.close();
         for (int i = 2; i <= range; i++) {
             int flag = 0;
             for (int j = 2; j <= Math.sqrt(i); j++) {

@@ -8,6 +8,7 @@ public class TrailingZeros {
         System.out.println("Enter a number to find zeros");
                int number=sc.nextInt();
                int result=0;
+                sc.close();
         for(int i=5;i<=number;i=i*i)
         {
                     result=result+number/i;

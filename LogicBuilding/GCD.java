@@ -9,6 +9,7 @@ public class GCD {
         int b = sc.nextInt();
         int min = (a < b) ? a : b;
         // System.out.println(min);
+        sc.close();
         while (min > 0) {
             if (a % min == 0 && b % min == 0) {
                 System.out.println("GCD :" + min);

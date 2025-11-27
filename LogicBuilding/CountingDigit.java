@@ -15,7 +15,7 @@ public class CountingDigit {
         System.out.println("Enter a number to count the number of digits");
         int number = sc.nextInt();
        
-
+          sc.close();
         int count = 0;
         while (number > 0) {
 
@@ -24,5 +24,5 @@ public class CountingDigit {
         }
         System.out.println("The number digits in a number is :" + count);
     }
-
+          
 }

@@ -13,5 +13,6 @@ public class PrintBits {
         {
             System.out.print((number>>i) &1);
         }
+        sc.close();
     }
 }

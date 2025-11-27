@@ -3,7 +3,7 @@ import java.util.Scanner;
 
 public class Decimal_AnyBase {
 
-    public static void Decimal_AnyBase(int basenumber, int decimalnumber) {
+    public static void Decimal_AnyBases(int basenumber, int decimalnumber) {
 
         int result = 0;
         int p = 0;
@@ -24,8 +24,8 @@ public class Decimal_AnyBase {
         System.out.println("Enter the base to convert");
         int anybase = sc.nextInt();
         System.out.println("Enter the decimal value");
-
+               sc.close();
         int decimalnumber = sc.nextInt();
-        Decimal_AnyBase(anybase, decimalnumber);
+        Decimal_AnyBases(anybase, decimalnumber);
     }
 }

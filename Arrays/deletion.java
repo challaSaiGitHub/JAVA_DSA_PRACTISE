@@ -10,7 +10,7 @@ public class deletion {
         arr[2] = 3;
         arr[3] = 4;
         arr[4]=5;
-        int index=3; //wants to delete index 3
+        // int index=3; //wants to delete index 3
         System.out.println("Array elements before deletion");
         for (int i = 0; i < arr.length; i++) {
             System.out.print(arr[i] + " ");

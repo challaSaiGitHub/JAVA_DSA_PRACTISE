@@ -9,6 +9,7 @@ public class Fast_Exponentiation_Algorithm {
         int base=sc.nextInt();
         System.out.println("Enter the power");
         int power=sc.nextInt();
+        sc.close();
         int result=1;
         while(power>0)
         {

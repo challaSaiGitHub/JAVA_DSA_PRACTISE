@@ -30,6 +30,7 @@ public class Ithbit {
         {
             System.out.println("odd");
         }
+        sc.close();
 
     }
     

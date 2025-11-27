@@ -1,7 +1,7 @@
 package Arrays;
 
 public class MaxElement {
-    public static void MaxElement(int arr[])
+    public static void MaxElements(int arr[])
     {
         int max=Integer.MIN_VALUE;
         
@@ -17,7 +17,7 @@ public class MaxElement {
     public static void main(String args[])
     {
         int arr[]={10,20,40,70,89,100,101,-101,-809};
-        MaxElement(arr);
+        MaxElements(arr);
 
     }
 }

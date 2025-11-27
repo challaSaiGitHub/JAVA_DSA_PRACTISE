@@ -9,6 +9,7 @@ public class Palindrome {
         int number=sc.nextInt();
         int copy=number;
         int result=0;
+        sc.close();
         while(number>0)
         {
             int rem=number%10;
