@@ -7,7 +7,7 @@ public class Infiniteseries {
             int range[]=new int[2];
               int start=0;
               int end=1;
-              while(target>nums[end])
+              while(target>=nums[end])
               {
                 start=end;
                 end=2*end;
